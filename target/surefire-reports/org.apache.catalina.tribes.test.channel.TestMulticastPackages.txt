@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.catalina.tribes.test.channel.TestMulticastPackages
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.345 sec

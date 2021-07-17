@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="42" failures="0" name="org.apache.catalina.util.TestNetMask" time="0.003" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/pengfeili/Downloads/apache-tomcat-9.0.50-src"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.script" value="Hans"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/pengfeili/Downloads/apache-tomcat-9.0.50-src"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/8n/n57t642x06jfyjrr_6ld6q540000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/pengfeili/Maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pengfeili/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/pengfeili/Maven/apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/pengfeili"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="pengfeili"/>
+    <property name="java.class.path" value="/Users/pengfeili/Maven/apache-maven-3.6.3/boot/plexus-classworlds.license:/Users/pengfeili/Maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 install --non-recursive"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/pengfeili/Maven/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[0: mask [260.1.1.1], input [null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[1: mask [1.2.3.4/foo], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[2: mask [1.2.3.4/-1], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[3: mask [1.2.3.4/33], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[4: mask [fffff::/71], input [null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[5: mask [ae31::27:ef2:1/foo], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[6: mask [ae31::27:ef2:1/-1], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[7: mask [ae31::27:ef2:1/129], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[8: mask [1.2.3.4;[], input [null]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[9: mask [1.2.3.4], input [1.2.3.4]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[10: mask [1.2.3.4/32], input [1.2.3.3]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[11: mask [1.2.3.4/32], input [1.2.3.4]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[12: mask [1.2.3.4/32], input [1.2.3.5]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[13: mask [1.2.3.4/31], input [1.2.3.3]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[14: mask [1.2.3.4/31], input [1.2.3.4]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[15: mask [1.2.3.4/31], input [1.2.3.5]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[16: mask [1.2.3.4/31], input [1.2.3.6]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[17: mask [10.0.0.0/22], input [9.255.255.255]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[18: mask [10.0.0.0/22], input [10.0.0.0]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[19: mask [10.0.0.0/22], input [10.0.3.255]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[20: mask [10.0.0.0/22], input [10.0.4.0]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[21: mask [::5:1], input [::5:1]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[22: mask [::5:1/128], input [::4:ffff]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[23: mask [::5:1/128], input [::5:1]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[24: mask [::5:1/128], input [::5:2]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[25: mask [::5:1/127], input [::4:ffff]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[26: mask [::5:1/127], input [::5:0]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[27: mask [::5:1/127], input [::5:1]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[28: mask [::5:1/127], input [::5:2]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[29: mask [a::5:1/42], input [9:ffff:ffff:ffff:ffff:ffff:ffff:ffff]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[30: mask [a::5:1/42], input [a::0]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[31: mask [a::5:1/42], input [a:0:3f:ffff:ffff:ffff:ffff:ffff]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[32: mask [a::5:1/42], input [a:0:40::]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[33: mask [10.0.0.0/22], input [::1]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[34: mask [1.2.3.4;8080], input [1.2.3.4]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[35: mask [1.2.3.4], input [1.2.3.4;8080]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[36: mask [1.2.3.4;], input [1.2.3.4;8080]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[37: mask [1.2.3.4;8080], input [1.2.3.4;8080]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[38: mask [1.2.3.4;8080], input [1.2.3.4;8009]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[39: mask [1.2.3.4;.*], input [1.2.3.4;8080]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[40: mask [1.2.3.4;8\d+], input [1.2.3.4;8080]]" time="0"/>
+  <testcase classname="org.apache.catalina.util.TestNetMask" name="testNetMask[41: mask [1.2.3.4;8\d+], input [1.2.3.4;9090]]" time="0"/>
+</testsuite>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="64" failures="0" name="org.apache.catalina.valves.TestLoadBalancerDrainingValve" time="0.027" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2020.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/pengfeili/Downloads/apache-tomcat-9.0.50-src"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.script" value="Hans"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/pengfeili/Downloads/apache-tomcat-9.0.50-src"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/8n/n57t642x06jfyjrr_6ld6q540000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Users/pengfeili/Maven/apache-maven-3.6.3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pengfeili/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/pengfeili/Maven/apache-maven-3.6.3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.16"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/pengfeili"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="pengfeili"/>
+    <property name="java.class.path" value="/Users/pengfeili/Maven/apache-maven-3.6.3/boot/plexus-classworlds.license:/Users/pengfeili/Maven/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 install --non-recursive"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.0.1.jdk/Contents/Home"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/pengfeili/Maven/apache-maven-3.6.3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[0: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0.009"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[1: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[2: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[3: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[4: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[5: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[6: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[7: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[8: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[9: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[10: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[11: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[12: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[13: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[14: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[15: activation[ACT], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[16: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[17: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[18: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[19: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[20: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[21: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[22: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[23: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[24: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[25: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[26: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[27: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[28: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[29: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[30: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[31: activation[ACT], validSessionID[false], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[32: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[33: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[34: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[35: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[36: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[37: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[38: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[39: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[40: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[41: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[42: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[43: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[44: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[45: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[46: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[47: activation[DIS], validSessionID[true], expectInvokeNext[true], enableIgnore[false], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[48: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[49: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[50: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[51: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[52: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[53: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[54: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[55: activation[DIS], validSessionID[false], expectInvokeNext[true], enableIgnore[true], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[56: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[57: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[null]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[58: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[59: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[null]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[60: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[foo=bar]]" time="0.001"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[61: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[62: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+  <testcase classname="org.apache.catalina.valves.TestLoadBalancerDrainingValve" name="runValve[63: activation[DIS], validSessionID[false], expectInvokeNext[false], enableIgnore[false], queryString[foo=bar]]" time="0"/>
+</testsuite>
